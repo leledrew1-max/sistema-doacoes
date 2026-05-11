@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Doações - Sistema de Doações</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Sistema de Gestão de Doações Inteligente</h1>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="cadastro.html">Cadastro</a>
+        <a href="doacoes.html">Doações</a>
+        <a href="relatorios.html">Relatórios</a>
+    </nav>
+</header>
+
+<main>
+    <h2>Registrar Doação</h2>
+    <p>Utilize o formulário abaixo para registrar uma nova doação no sistema.</p>
+
+    <form>
+        <label>Nome do doador:</label><br>
+        <input type="text" placeholder="Ex: Maria Silva"><br><br>
+
+        <label>Tipo do item doado:</label><br>
+        <select>
+            <option>Alimentos</option>
+            <option>Roupas</option>
+            <option>Higiene</option>
+            <option>Móveis</option>
+            <option>Outros</option>
+        </select><br><br>
+
+        <label>Quantidade:</label><br>
+        <input type="number" placeholder="Ex: 10"><br><br>
+
+        <label>Status da doação:</label><br>
+        <select>
+            <option>Disponível</option>
+            <option>Reservado</option>
+            <option>Entregue</option>
+        </select><br><br>
+
+        <button type="button">Registrar Doação</button>
+    </form>
+
+    <hr>
+
+    <h2>Doações Registradas</h2>
+    <p>Exemplo de registros de doações no sistema:</p>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Doador</th>
+            <th>Item</th>
+            <th>Quantidade</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>Maria Silva</td>
+            <td>Alimentos</td>
+            <td>10</td>
+            <td>Disponível</td>
+        </tr>
+        <tr>
+            <td>João Santos</td>
+            <td>Roupas</td>
+            <td>5</td>
+            <td>Entregue</td>
+        </tr>
+        <tr>
+            <td>Ana Costa</td>
+            <td>Higiene</td>
+            <td>8</td>
+            <td>Reservado</td>
+        </tr>
+    </table>
+
+</main>
+
+<footer>
+    Projeto Extensionista – Projeto de Sistemas
+</footer>
+
+</body>
+</html>
