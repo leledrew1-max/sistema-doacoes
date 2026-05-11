@@ -1,0 +1,124 @@
+/* Estilo geral do site */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #2f80ed;
+    color: white;
+    padding: 20px;
+}
+
+/* Título do site */
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Menu */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+    background-color: white;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+    color: #666;
+}
+input, select, textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background: #2f80ed;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+hr {
+  margin: 25px 0;
+}
+.cards{
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.card{
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 14px;
+  width: 240px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+}
+
+.card h3{
+  margin: 0 0 8px 0;
+  font-size: 16px;
+}
+
+.numero{
+  font-size: 34px;
+  font-weight: bold;
+  margin: 0;
+  color: #2f80ed;
+}
+
+.tabela{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  max-width: 900px;
+}
+
+.tabela th, .tabela td{
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.tabela th{
+  background: #f3f6ff;
+}
